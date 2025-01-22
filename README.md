@@ -14,8 +14,7 @@ Felix Zheng
 <br>
 <br>
 ## 線上預覽 🔍
-
-<br>
+[TodoApp use React by Felix](https://zlix1214.github.io/SideProjectTodoApp/)<br>
 <br>
 
 ## 使用技術
@@ -41,12 +40,13 @@ Felix Zheng
 <br>
 
 ## 學習資源 📖
-
+[React基礎教學](https://www.youtube.com/watch?v=aBTiZfShe-4&t=5134s)<br>
+[Deploy a React application to GitHub pages](https://www.youtube.com/watch?v=tg-Xgx-lqXM)<br><br>
 
 ## 開發心得 ⭐
 
 這是我的第一個side project，透過這個專案我學到了如何從0到1完成一項專案，並第一次成功部屬到gitghub pages上，<br>把react的基礎知識和git的基本用法都學會了，起初開發我只會使用npm run dev在本地端運行，<br>現在我學會使用deploy的方式，讓我更有信心以後能繼續進步、繼續增加更多的side project。
-
+<br><br>
 ## 安裝與使用 ⭐
 
 Clone專案：

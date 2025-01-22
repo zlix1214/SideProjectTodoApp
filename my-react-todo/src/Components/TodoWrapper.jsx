@@ -3,20 +3,7 @@ import CreateForm from "./CreateForm";
 import Todo from "./Todo";
 
 function TodoWrapper() {
-  const [todos, setTodos] = useState([
-    {
-      content: "打掃廁所",
-      id: Math.random(),
-      isCompleted: false,
-      isEditing: false,
-    },
-    {
-      content: "寫作業",
-      id: Math.random(),
-      isCompleted: true,
-      isEditing: false,
-    },
-  ]);
+  const [todos, setTodos] = useState([]);
   const addTodo = (content) => {
     setTodos([
       ...todos,

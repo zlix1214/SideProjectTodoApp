@@ -20,14 +20,12 @@ function Todo({
         {todo.content}
       </p>
       <div>
-        <MdEdit
-          style={{ cursor: "pointer" }}
+        <MdEdit className="edit"
           onClick={() => {
             toggleIsEditing(todo.id);
           }}
         />
-        <MdDelete
-          style={{ cursor: "pointer", marginLeft: "5px" }}
+        <MdDelete className="delete"
           onClick={() => {
             deleteTodo(todo.id);
           }}

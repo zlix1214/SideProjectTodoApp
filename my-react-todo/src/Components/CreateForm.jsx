@@ -20,7 +20,7 @@ function CreateForm({ addTodo }) {
   };
 
   return (
-    <div>
+    <div style={{display:"flex",justifyContent:"center" }}>
       <form className="create-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -32,7 +32,7 @@ function CreateForm({ addTodo }) {
         />
         <button type="submit">加入</button>
       </form>
-      {showModal && <Modal message="請輸入待辦事項！" onClose={closeModal} />}
+      {showModal && <Modal message="- 請輸入待辦事項 -" onClose={closeModal} />}
     </div>
   );
 }

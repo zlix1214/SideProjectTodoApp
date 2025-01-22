@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #3b36cc;
+  background-image: url('assets/background.jpg');
   color: white;
   display: flex;
   flex-direction: row;
@@ -14,17 +14,19 @@ body {
 .wrapper {
   width: 450px;
   padding: 30px;
-  background-color: #1a1a40;
+  background-color: #1a1a407a;
   border-radius: 20px;
   margin-top: 20px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 .create-form {
+  background-color: #dcdcee23;
   height: 40px;
-  width: 100%;
+  width: 70%;
   margin: 25px 0px;
   border-radius: 15px;
-  border: 1px solid #3b36cc;
   display: flex;
 }
 .create-form input {
@@ -36,29 +38,37 @@ body {
   height: 100%;
   padding-left: 10px;
 }
+.create-form input::placeholder{
+  color: rgb(224, 221, 221);
+}
 .create-form button {
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   border: none;
-  background-color: #3636cc;
-  color: white;
+  background: linear-gradient(to right, rgba(24, 139, 227, 0.57), rgba(3, 17, 68, 0.597));  height: 40px;
+  color: rgb(255, 255, 255);
   width: 50px;
   height: 100%;
   cursor: pointer;
 }
 .create-form button:hover{
-  background-color: #3030b3;
-  transform: scale(1.1); 
+  background-color: #d2d2e8c7;
+  transform: scale(1.03); 
 }
 .todo {
-  background-color: #3b36cc;
-  height: 40px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.315), rgba(3, 17, 68, 0.597));  height: 40px;
   padding: 0 10px;
   margin-top: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 5px 5px 10px rgba(5, 163, 79, 0.538);
+
+}
+
+.todo p{
+  cursor: pointer;
 }
 
 .completed {
@@ -72,7 +82,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.644);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,28 +90,53 @@ body {
 }
 
 .modal {
-  background-color: white;
+  background-color: rgba(234, 234, 234, 0);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: black;
 }
 
 .modal p{
+  color: white;
+  font-size: large;
   margin-bottom: 20px;
 }
 
 .modal button {
-  background-color: #3636cc;
+  background-color: #3636cc00;
+  font-size: large;
   color: white;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .modal button:hover {
-  background-color: #3030b3;
-  transform: scale(1.1); 
+  transform: scale(1.05); 
+}
+
+.delete{
+  cursor: "pointer";
+}
+.delete:hover{
+  color: #6363c8;
+  cursor: pointer;
+}
+
+.edit{
+  cursor: "pointer";
+  margin-right: 10px;
+}
+.edit:hover{
+  color: #6363c8;
+  cursor: pointer;
+}
+
+.clock{
+   font-size: "20px";
+  font-weight: "bold";
+   text-align: "center";
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CreateForm from "./CreateForm";
 import Todo from "./Todo";
+import Clock from "./Clock";
 
 function TodoWrapper() {
   const [todos, setTodos] = useState([]);
@@ -47,9 +48,12 @@ function TodoWrapper() {
       })
     );
   };
+
+  
   return (
     <div className="wrapper">
       <h1>待辦事項</h1>
+      <Clock/>
       <CreateForm addTodo={addTodo} />
       {todos.map((todo) => {
         return (

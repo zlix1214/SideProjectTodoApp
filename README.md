@@ -14,7 +14,7 @@ Felix Zheng
 <br>
 <br>
 ## 線上預覽 🔍
-[TodoApp use React by Felix](https://zlix1214.github.io/SideProjectTodoApp/)
+[TodoApp use React by Felix] (https://zlix1214.github.io/SideProjectTodoApp/)
 <br>
 <br>
 
@@ -42,8 +42,8 @@ Felix Zheng
 
 ## 學習資源 📖
 <br>
-[React基礎教學](https://www.youtube.com/watch?v=aBTiZfShe-4&t=5134s)<br>
-[Deploy a React application to GitHub pages](https://www.youtube.com/watch?v=tg-Xgx-lqXM)
+-[React基礎教學] (https://www.youtube.com/watch?v=aBTiZfShe-4&t=5134s)<br>
+-[Deploy a React application to GitHub pages] (https://www.youtube.com/watch?v=tg-Xgx-lqXM)
 <br>
 <br>
 

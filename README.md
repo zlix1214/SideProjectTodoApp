@@ -40,7 +40,7 @@ Felix Zheng
 
 ## 安裝與使用 ⭐
 
-1. clone或下載專案：
+Clone專案：
 
    ```bash
    git clone https://github.com/zlix1214/SideProjectTodoApp.git

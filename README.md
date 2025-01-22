@@ -1,8 +1,15 @@
 # Todo App
 
+## 開發者
+Felix Zheng
+
 ## 簡介
 
-這是一個簡單的待辦事項 (Todo) 應用程式，旨在幫助用戶管理他們的待辦清單。該專案主要用於練習 React 的基礎知識，包含使用 `props` 和 `useState` 等 React 特性。這個應用是通過 `create vite` 初始化的專案，並使用 GitHub Pages 部署，並配有簡單的 CSS 裝飾。
+這是一個簡單的待辦事項 (Todo) 應用程式。該專案主要用於練習 React 的基礎知識，包含使用 `props` 和 `useState` 等 React 特性。<br>
+這個TodoApp是通過 `create vite` 初始化的專案，並使用 GitHub Pages 部署，並配有簡單的 CSS 美化。
+
+## 線上預覽
+[TodoApp use React by Felix](https://zlix1214.github.io/SideProjectTodoApp/)
 
 ## 使用技術
 
@@ -25,7 +32,11 @@
 1. clone或下載專案：
 
    ```bash
-   https://github.com/zlix1214/SideProjectTodoApp.git
+   git clone https://github.com/zlix1214/SideProjectTodoApp.git
    cd my-react-todo
    npm install
    npm run dev
+
+## 開發心得
+
+透過這個專案我學到了如何從0到1完成一項專案，並第一次成功部屬到gitghub pages上，把react的基礎知識和git的基本用法都學會了，<br>起初開發我只會使用npm run dev在本地端運行，現在我學會使用deploy的方式，讓我更有信心以後能繼續進步、繼續增加更多的side project。

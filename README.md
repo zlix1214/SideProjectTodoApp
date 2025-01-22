@@ -53,7 +53,7 @@ Felix Zheng
 ## 學習資源 📖
 
 [React基礎教學](https://www.youtube.com/watch?v=aBTiZfShe-4&t=5134s)<br>
-[How to deploy a Vite / React application to GitHub pages](https://www.youtube.com/watch?v=tg-Xgx-lqXM)
+[Deploy a React application to GitHub pages](https://www.youtube.com/watch?v=tg-Xgx-lqXM)
 <br>
 <br>
 

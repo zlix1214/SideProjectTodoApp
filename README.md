@@ -56,7 +56,5 @@ Clone專案：
    cd my-react-todo
    npm install
    npm run dev
-<br>
-<br>
 
 
